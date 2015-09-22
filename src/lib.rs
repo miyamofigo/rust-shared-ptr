@@ -13,6 +13,8 @@
 #![feature(box_syntax, box_raw)]
 #![feature(coerce_unsized, core_intrinsics)]
 
+#![crate_name = "shared"]
+
 extern crate core;
 extern crate alloc;
 
